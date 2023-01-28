@@ -1,6 +1,16 @@
 {
+  "name": "TEST",
+  "version": "1.0.0",
+  "description": "",
+  "main": "testing.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
   "dependencies": {
     "bootstrap": "^5.2.3",
     "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
